@@ -1,8 +1,8 @@
 class Solution:
-    def addDigits(self, num: int) -> int:
-        while len(str(num))>1:
+    def addDigits(self, n: int) -> int:
+        while len(str(n))>1:
             add = 0
-            for i in str(num):
+            for i in str(n):
                 add+=int(i)
-            num = add
-        return num
+            n = add
+        return n
