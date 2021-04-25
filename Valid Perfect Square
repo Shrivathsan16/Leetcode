@@ -5,6 +5,6 @@ class Solution:
             m.append(i*i)
         if num in m:
             return True
-        els:
+        else:
             return False
         
