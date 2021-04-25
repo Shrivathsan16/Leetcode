@@ -1,0 +1,10 @@
+class Solution:
+    def isPerfectSquare(self, num: int) -> bool:
+        m = []
+        for i in range(0,65536):
+            m.append(i*i)
+        if num in m:
+            return True
+        els:
+            return False
+        
