@@ -3,5 +3,5 @@ class Solution:
         x = len(nums)
         for i in range(0,x+1):
             if i not in nums:
-                return 
+                return i
         
